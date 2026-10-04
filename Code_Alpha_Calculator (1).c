@@ -8,7 +8,7 @@ int main()
     printf("Enter your first number: ");
     scanf("%f",&num1);
     
-    printf("Select an operator: ");
+    printf("Select an arithmetic operator: ");
     scanf(" %c",&op);
     
     printf("Enter your second number: ");
@@ -38,7 +38,6 @@ int main()
         printf("\nInvalid Operator");
         break;
     }
-    
 
     return 0;
 }
